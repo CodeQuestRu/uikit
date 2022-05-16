@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "craco start",
-    "build": "craco build"
+    "build": "craco build",
+    "prettier": "prettier --write '**/*.+(js|jsx|ts|tsx|css)'"
   },
   "dependencies": {
     "@craco/craco": "^6.4.3",
@@ -12,7 +13,6 @@
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
     "antd": "^4.20.2",
-    "craco-antd": "^2.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
@@ -20,15 +20,20 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "webpackbar": "^5.0.2",
     "@svgr/webpack": "5.4.0",
-    "babel-plugin-inline-react-svg": "^2.0.1",
-    "babel-plugin-module-resolver": "^4.1.0",
-    "webpack-bundle-analyzer": "^4.5.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.0"
+    "@types/jest": "^27.5.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1",
+    "prettier": "2.6.2",
+    "stylelint-config-prettier": "^9.0.3",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpackbar": "^5.0.2"
   },
   "eslintConfig": {
     "extends": [
