@@ -1,4 +1,4 @@
-import AddIcon from '@icons/add.svg';
+import AddIcon from '../../../src/assets/icons/add.svg';
 
 export default function MyIcon() {
   return (
